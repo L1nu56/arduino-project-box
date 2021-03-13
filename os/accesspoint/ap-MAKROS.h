@@ -4,9 +4,8 @@
  * desc:   Makros, data are declared here
  */
 
-// Wifi secret data
-#define AP_PASSPHRASE "01234567899876543210"
-#define AP_SSID "AP Projekt Box"
+#include <Arduino.h>
+#include <Wifi.h>
 
 // Wifi status data
 string wifiSSID = WiFi.SSID()
