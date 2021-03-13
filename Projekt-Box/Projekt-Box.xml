@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/linusrei/Dokumente/IT/Architectures/arm/Cortex/STM/32/H/7/dualcore/Arduino Portenta H7/Projekt-Box/Projekt-Box/Projekt-Box.sch</source>
+    <date>Fr 12 Mär 2021 09:21:02 CET</date>
+    <tool>Eeschema 5.1.9+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Projekt-Box.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>L 293 D</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/l293.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="L293D" description="Quadruple Half-H Drivers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F4E6C</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>COM MOTOR RAD</value>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F6A93</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_BCE</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604051E9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_BCE</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040B896</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604105F6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6041156A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60423435</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60423D7B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>I2C-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6044893E</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>I2C-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604579C4</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>PWM-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6045B3D4</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Motor-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60479AAB</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Power-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6042176B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>I2C-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604579B6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>I2C-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60452CA0</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>I2C-Conn</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60450F0E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="L293">
+      <aliases>
+        <alias>L293D</alias>
+      </aliases>
+      <description>Quadruple Half-H Drivers</description>
+      <docs>http://www.ti.com/lit/ds/symlink/l293.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L293</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1,2" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="2A" type="input"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+        <pin num="9" name="EN3,4" type="input"/>
+        <pin num="10" name="3A" type="input"/>
+        <pin num="11" name="3Y" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="4Y" type="output"/>
+        <pin num="15" name="4A" type="input"/>
+        <pin num="16" name="VCC1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>/usr/share/kicad/library/Driver_Motor.lib</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/usr/share/kicad/library/Motor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/PWM2">
+      <node ref="J7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="2" name="/SCL">
+      <node ref="J6" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="3" name="/5V">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="6" name="/PWM1">
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J8-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="+5VD">
+      <node ref="U1" pin="9"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="12" name="+5VA">
+      <node ref="U1" pin="16"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="J5" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="14" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(M1-Pad1)">
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(M1-Pad3)">
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="20" name="Net-(M1-Pad4)">
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="21" name="Net-(Q2-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+  </nets>
+</export>
