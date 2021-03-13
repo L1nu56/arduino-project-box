@@ -1,6 +1,6 @@
 
-#ifndef Morse_h
-#define Morse_h
+#ifndef accesspoint_h
+#define accesspoint_h
 
 // Start of class AP
 class AP {
